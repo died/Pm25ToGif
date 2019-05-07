@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PurchaseOrderv1_0.xsd">
+		<POPurpose>PO Creation</POPurpose>
+		<PONumber>0123456789</PONumber>
+		<POVersionNumber>0</POVersionNumber>
+		<POResponseVersionNumber>0</POResponseVersionNumber>
+		<messageGenerationDateTime>2018-06-11T12:00:00+08:00</messageGenerationDateTime>
+		<latestUpdateDateTime>2018-06-11T11:00:00+08:00</latestUpdateDateTime>
+		<originalPOIssueDate>2018-06-11</originalPOIssueDate>
+		<adidasPODownloadDate>2018-06-10</adidasPODownloadDate>
+		<currency>USD</currency>
+		<paymentTerms>Payment 30 days after invoice date</paymentTerms>
+		<headerRemarks>Check markings on cases, there was a problem with past orders. This is general information only, not to be processed by your system.</headerRemarks>
+		<sender>
+			<senderName>T1ABC</senderName>
+			<senderPerson>Sam Jones</senderPerson>
+		</sender>
+		<recipient>T2ABCD</recipient>
+		<buyer>
+			<buyerName>T1 Supplier Company Limited</buyerName>
+			<buyerAddressLine1>48/F, Kodak House, 123 Java Road, North Point</buyerAddressLine1>
+			<buyerAddressLine2>address line 2</buyerAddressLine2>
+			<buyerAddressLine3>address line 3</buyerAddressLine3>
+			<buyerAddressLine4>address line 4</buyerAddressLine4>
+			<buyerCity>Hong Kong</buyerCity>
+			<buyerProvince>Guangdong</buyerProvince>
+			<buyerCountryCode>HK</buyerCountryCode>
+			<buyerPostalCode>000</buyerPostalCode>
+			<buyerContactPerson>Mr John Smith</buyerContactPerson>
+			<buyerContactTelNumber>852 1234 5678</buyerContactTelNumber>
+			<buyerContactEmail>j.smith@email.com</buyerContactEmail>
+		</buyer>
+		<sellerName>T2 Supplier Company Limited</sellerName>
+		<actualManufacturer>
+			<actualManufacturerCode>T2EFGH</actualManufacturerCode>
+			<actualManufacturerName>T2 Manufactory Company Limited</actualManufacturerName>
+			<actualManufacturerAddressLine1>18F, No.123, Sec.3, Zhongshan N Rd., Zhongshan Dist., Taipei, Taiwan</actualManufacturerAddressLine1>
+			<actualManufacturerAddressLine2>address line 2</actualManufacturerAddressLine2>
+			<actualManufacturerAddressLine3>address line 3</actualManufacturerAddressLine3>
+			<actualManufacturerAddressLine4>address line 4</actualManufacturerAddressLine4>
+			<actualManufacturerCity>Taipei</actualManufacturerCity>
+			<actualManufacturerProvince>Taipei</actualManufacturerProvince>
+			<actualManufacturerCountryCode>TW</actualManufacturerCountryCode>
+			<actualManufacturerPostalCode>300</actualManufacturerPostalCode>
+		</actualManufacturer>
+		<shipTo>
+			<shipToCode>T1EFGH</shipToCode>
+			<shipToName>T1 Manufactory Company Limited</shipToName>
+			<shipToAddressLine1>Block Z Guangzhou Textile Trade Park, No.1 Xin Gang Xi Road, HaiZhu District, Guangzhou, Guangdong</shipToAddressLine1>
+			<shipToAddressLine2>address line 2</shipToAddressLine2>
+			<shipToAddressLine3>address line 3</shipToAddressLine3>
+			<shipToAddressLine4>address line 4</shipToAddressLine4>
+			<shipToCity>Guangzhou</shipToCity>
+			<shipToProvince>Guangdong</shipToProvince>
+			<shipToCountryCode>CN</shipToCountryCode>
+			<shipToPostalCode>123</shipToPostalCode>
+		</shipTo>
+		<T1Customer>adidas Service Limited</T1Customer>
+		<ShippingInformation>
+			<forwarder>Kuehne + Nagel</forwarder>
+			<incoterm>FOB</incoterm>
+			<shipMode>Maritime transport</shipMode>
+			<countryOfOrigin>TW</countryOfOrigin>
+			<packingInstruction>All merchandise that is shipped in a polybag is required to be securely sealed in a way that will prevent the item from being able to fall out of the bag. Bags may be sealed by clear tape or zip lock closure. Staples are not permitted.</packingInstruction>
+			<shippingInstruction>The Delivery note is made per lorry, per container, per ship or the like. The Delivery Note is a shipment apron to the packing lists covering the shipment.</shippingInstruction>
+		</ShippingInformation>
+		<headerExtension>additioal info</headerExtension>
+		<POLineItem>
+			<lineItemNumber>1</lineItemNumber>
+			<changePurposeLineStatus>Add New Line</changePurposeLineStatus>
+			<adidasOrderNumber>PO3352</adidasOrderNumber>
+			<adidasArticleNumber>ART123</adidasArticleNumber>
+			<adidasWorkingNumber>WN4567</adidasWorkingNumber>
+			<requestDate>2018-07-01</requestDate>
+			<adidasRequestDate>2018-08-10</adidasRequestDate>
+			<adidasPlanDate>2018-08-10</adidasPlanDate>
+			<priorityAndOrderType>APP_Bulk_Events_World Cup_P1</priorityAndOrderType>
+			<orderQty>100</orderQty>
+			<orderUOM>KG</orderUOM>
+			<season>SS18</season>
+			<lineRemarks>Supply of material to be as per samples approved on 2017-12-14</lineRemarks>
+			<materialReferenceNumber>3432545532</materialReferenceNumber>
+			<materialDescriptor>
+				<materialDescription>100%CO 150G/SQM 59"MID MOON</materialDescription>
+				<materialColor>FLASH GREEN S15 A7L8</materialColor>
+				<sustainableMaterialComposition>Recycled Nylon</sustainableMaterialComposition>
+				<sustainableMaterialComposition>Recycled Nylon</sustainableMaterialComposition>
+				<colorMatchingNote>DO NOT COLOR BLACK</colorMatchingNote>
+				<materialSectionName>part number 1</materialSectionName>
+				<weightValue>150</weightValue>
+				<weightUOM>G/SQM</weightUOM>
+				<widthValue>15.123</widthValue>
+				<widthUOM>inch</widthUOM>
+				<thicknessValue>10</thicknessValue>
+				<thicknessUOM>INCH</thicknessUOM>
+				<lengthValue>10</lengthValue>
+				<lengthUOM>mm</lengthUOM>
+				<heightValue>10</heightValue>
+				<heightUOM>mm</heightUOM>
+				<size>12</size>
+			</materialDescriptor>
+			<unitPrice>10.34</unitPrice>
+			<lineExtension1>additioal info</lineExtension1>
+			<lineExtension2>additioal info</lineExtension2>
+			<lineExtension3>additioal info</lineExtension3>
+			<lineExtension4>additioal info</lineExtension4>
+			<lineExtension5>additioal info</lineExtension5>
+		</POLineItem>
+	</PurchaseOrder>
